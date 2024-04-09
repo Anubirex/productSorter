@@ -1,0 +1,164 @@
+/* Begin Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  /* END RESET */
+  /* ///////////////////////Variables///////////////////////////////// */
+  :root {
+    --COLOR-MAIN-BRIGHT: #2c8ddb;
+    --COLOR-MAIN-DARK: #003a71;
+    --COLOR-SECONDARY-BRIGHT: #db2d28;
+    --COLOR-SECONDARY-DARK: #9f161c;
+    --COLOR-HIGHLIGHT-BRIGHT: #ead422;
+    --COLOR-HIGHLIGHT-DARK: #dea724;
+  }
+  /* /////////////////end of variables////////////////////////////////// */
+  /* ///////////////////////////////utility classes\\\\\\\\\\\\\\\\\\\\\\\\\ */
+  html{
+    scroll-behavior: smooth;
+  }
+  main, section{
+    overflow-x: hidden;
+  }
+  .width-limiter {
+    max-width:1200px;
+    width: 98%;
+    margin: auto;
+  }
+  /* ///////////////////////////DOCUMENT GENERAL BELOW////////////////////////////// */
+body {
+    background-color: var(--COLOR-MAIN-DARK);
+    color: white;
+    overflow-x: hidden;
+}
+.products-position {
+    display: flex;
+    padding: 2rem 0 2rem 0;
+}
+.filters-position {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+.hide {
+    display: none;
+}
+.categories,
+.category-filters {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+}
+.categories h2,
+.category-filters h2 {
+    font-size: 2.25rem;
+    padding: .25rem;
+    color: var(--COLOR-HIGHLIGHT-BRIGHT);
+}
+.category,
+.filter {
+    display: flex;
+    align-items: center;
+}
+.category p,
+.filter p {
+    padding-left: .5rem;
+    font-size: 1.7rem;
+}
+.product-view {
+    max-width: 90%;
+    min-width: 350px;
+    height: 75rem;
+    background-color: var(--COLOR-SECONDARY-DARK);
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 2rem 1rem 2rem 1rem;
+}
+.heat-pump-filters,
+.furnace-filters,
+.air-conditioner-filters,
+.water-heater-filters {
+    display: none;
+}
+.product-card {
+    margin: .5rem;
+    padding: .25rem;
+    max-width: 45%;
+    min-width: 325px;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease;
+}
+.product-card:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Example hover effect */
+    background-color: var(--COLOR-MAIN-BRIGHT);
+}
+.product-card img {
+    width: auto;
+    height: 150px;
+    margin: .25rem;
+    border: 1px ridge black;
+    border-radius: 5px;
+}
+.product-card h3 {
+    width: 50%;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.product-card p {
+    width: 50%;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    padding: .25rem;
+}
+@media (max-width: 720px) {
+    .category-filters {
+        padding-bottom: 2rem;
+    }
+    .products-position {
+        display: block;
+    }
+    .filters-position {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .heat-pump-filters,
+    .furnace-filters,
+    .air-conditioner-filters,
+    .water-heater-filters {
+        display: none;
+    }
+    .product-view {
+        margin: auto;
+        height: 80vh;
+        width: 90%;
+        padding: 1rem;
+    }
+    .product-card {
+        margin: .25rem;
+        max-width: 45%;
+    }
+    .product-card h3 {
+        font-size: 2.2rem;
+    }
+    .product-card p {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+    .filters-position {
+        padding: 0;
+        width: 90%;
+    }
+}

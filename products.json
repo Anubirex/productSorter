@@ -1,0 +1,464 @@
+[
+    {
+        "category": "Furnace",
+        "capacity": "40,000 BTU",
+        "efficiency": "AFUE 95%",
+        "stages": "Single Stage",
+        "name": "MULTI-POSITION RESIDENTIAL GAS FURNACE: TM9E",
+        "picture": "./TM9E.png",
+        "price": "$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "60,000 BTU",
+        "efficiency": "AFUE 95%",
+        "stages": "Single Stage",
+        "name": "MULTI-POSITION RESIDENTIAL GAS FURNACE: TM9E",
+        "picture": "./TM9E.png",
+        "price": "$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "80,000 BTU",
+        "efficiency": "AFUE 95%",
+        "stages": "Single Stage",
+        "name": "MULTI-POSITION RESIDENTIAL GAS FURNACE: TM9E",
+        "picture": "./TM9E.png",
+        "price": "$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "100,000 BTU",
+        "efficiency": "AFUE 95%",
+        "stages": "Single Stage",
+        "name": "MULTI-POSITION RESIDENTIAL GAS FURNACE: TM9E",
+        "picture": "./TM9E.png",
+        "price": "$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "120,000 BTU",
+        "efficiency": "AFUE 95%",
+        "stages": "Single Stage",
+        "name": "MULTI-POSITION RESIDENTIAL GAS FURNACE: TM9E",
+        "picture": "./TM9E.png",
+        "price": "$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "40,000 BTU",
+        "efficiency": "AFUE 80%",
+        "stages": "Two Stage",
+        "name": "TWO STAGE PSC MULTI-POSITION GAS FURNACE: TM8T/TMLT",
+        "picture": "./TM8T.png",
+        "price": "$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "60,000 BTU",
+        "efficiency": "AFUE 80%",
+        "stages": "Two Stage",
+        "name": "TWO STAGE PSC MULTI-POSITION GAS FURNACE: TM8T/TMLT",
+        "picture": "./TM8T.png",
+        "price": "$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "80,000 BTU",
+        "efficiency": "AFUE 80%",
+        "stages": "Two Stage",
+        "name": "TWO STAGE PSC MULTI-POSITION GAS FURNACE: TM8T/TMLT",
+        "picture": "./TM8T.png",
+        "price": "$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "100,000 BTU",
+        "efficiency": "AFUE 80%",
+        "stages": "Two Stage",
+        "name": "TWO STAGE PSC MULTI-POSITION GAS FURNACE: TM8T/TMLT",
+        "picture": "./TM8T.png",
+        "price": "$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "120,000 BTU",
+        "efficiency": "AFUE 80%",
+        "stages": "Two Stage",
+        "name": "TWO STAGE PSC MULTI-POSITION GAS FURNACE: TM8T/TMLT",
+        "picture": "./TM8T.png",
+        "price": "$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "40,000 BTU",
+        "efficiency": "AFUE 96%",
+        "stages": "Variable Speed",
+        "name": "VARIABLE SPEED ECM RESIDENTIAL GAS FURNACE: TM9V",
+        "picture": "./TM9V.png",
+        "price": "$$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "60,000 BTU",
+        "efficiency": "AFUE 96%",
+        "stages": "Variable Speed",
+        "name": "VARIABLE SPEED ECM RESIDENTIAL GAS FURNACE: TM9V",
+        "picture": "./TM9V.png",
+        "price": "$$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "80,000 BTU",
+        "efficiency": "AFUE 96%",
+        "stages": "Variable Speed",
+        "name": "VARIABLE SPEED ECM RESIDENTIAL GAS FURNACE: TM9V",
+        "picture": "./TM9V.png",
+        "price": "$$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "100,000 BTU",
+        "efficiency": "AFUE 96%",
+        "stages": "Variable Speed",
+        "name": "VARIABLE SPEED ECM RESIDENTIAL GAS FURNACE: TM9V",
+        "picture": "./TM9V.png",
+        "price": "$$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "120,000 BTU",
+        "efficiency": "AFUE 96%",
+        "stages": "Variable Speed",
+        "name": "VARIABLE SPEED ECM RESIDENTIAL GAS FURNACE: TM9V",
+        "picture": "./TM9V.png",
+        "price": "$$$$$",
+        "fuel source": "Gas"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "10 Kw",
+        "efficiency": "AFUE 100%",
+        "stages": "Two Stage",
+        "name": "Single Piece Multi-position Air Handler: JHET",
+        "picture": "./JHET.png",
+        "price": "$$$",
+        "fuel source": "Electric"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "15 Kw",
+        "efficiency": "AFUE 100%",
+        "stages": "Two Stage",
+        "name": "Single Piece Multi-position Air Handler: JHET",
+        "picture": "./JHET.png",
+        "price": "$$$",
+        "fuel source": "Electric"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "20 Kw",
+        "efficiency": "AFUE 100%",
+        "stages": "Two Stage",
+        "name": "Single Piece Multi-position Air Handler: JHET",
+        "picture": "./JHET.png",
+        "price": "$$$",
+        "fuel source": "Electric"
+    },
+    {
+        "category": "Furnace",
+        "capacity": "25 Kw",
+        "efficiency": "AFUE 100%",
+        "stages": "Two Stage",
+        "name": "Single Piece Multi-position Air Handler: JHET",
+        "picture": "./JHET.png",
+        "price": "$$$",
+        "fuel source": "Electric"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "2 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "3 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "4 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "5 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "2 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "3 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "4 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "5 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "2 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "3 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "4 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Heat Pump",
+        "capacity": "5 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "HMH7 Series Heat Pump",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "2 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "3 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "4 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "5 Ton",
+        "efficiency": "15 seer",
+        "stages": "Single Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "2 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "3 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "4 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "5 Ton",
+        "efficiency": "19 seer",
+        "stages": "Variable Speed",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "2 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "3 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "4 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Air Conditioner",
+        "capacity": "5 Ton",
+        "efficiency": "17 seer",
+        "stages": "Two Stage",
+        "name": "York High Efficiency Air Conditioner",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Water Heater",
+        "capacity": "50 Gal. Tank",
+        "efficiency": "88%",
+        "name": "50 Gallon Tanked Water Heater",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Water Heater",
+        "capacity": "40 Gal. Tank",
+        "efficiency": "88%",
+        "name": "40 Gallon Tanked Water Heater",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Water Heater",
+        "capacity": "50 Gal. Tank",
+        "efficiency": "90%",
+        "name": "50 Gallon Tanked Water Heater",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Water Heater",
+        "capacity": "40 Gal. Tank",
+        "efficiency": "90%",
+        "name": "40 Gallon Tanked Water Heater",
+        "picture": "./placeholder.png",
+        "price": "$$$"
+    },
+    {
+        "category": "Water Heater",
+        "capacity": "160,000 BTU",
+        "efficiency": "97%",
+        "name": "Rinnai Tankles Water Heater",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Water Heater",
+        "capacity": "180,000 BTU",
+        "efficiency": "97%",
+        "name": "Rinnai Tankles Water Heater",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    },
+    {
+        "category": "Water Heater",
+        "capacity": "199,000 BTU",
+        "efficiency": "97%",
+        "name": "Rinnai Tankles Water Heater",
+        "picture": "./placeholder.png",
+        "price": "$$$$"
+    }
+]

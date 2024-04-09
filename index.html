@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index, follow">
+        <title>Product Sorter</title>
+    </head>
+    <body>
+        <div class="products-position width-limiter">
+            <div class="filters-position">
+                <div class="categories">
+                    <h2>Categories:</h2>
+                    <label class="category">
+                        <input type="radio" name="productType" value="Furnace">
+                        <p>Furnace</p>
+                    </label>
+                    <label class="category">
+                        <input type="radio" name="productType" value="Heat Pump">
+                        <p>Heat Pump</p>
+                    </label>
+                    <label class="category">
+                        <input type="radio" name="productType" value="Air Conditioner">
+                        <p>Air Conditioner</p>
+                    </label>
+                    <label class="category">
+                        <input type="radio" name="productType" value="Water Heater">
+                        <p>Water Heater</p>
+                    </label>
+                </div>
+                <div class="category-filters furnace-filters" id="content-furnace">
+                    <h2>Capacity:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="40,000 BTU">
+                        <p>40,000 BTU</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="60,000 BTU">
+                        <p>60,000 BTU</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="80,000 BTU">
+                        <p>80,000 BTU</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="100,000 BTU">
+                        <p>100,000 BTU</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="120,000 BTU">
+                        <p>120,000 BTU</p>
+                    </label>
+                    <h2>Efficiency:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="AFUE 80%">
+                        <p>AFUE 80%</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="AFUE 90%">
+                        <p>AFUE 90%</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="AFUE 95%">
+                        <p>AFUE 95%</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="AFUE 96%">
+                        <p>AFUE 96%</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="AFUE 100%">
+                        <p>AFUE 100%</p>
+                    </label>
+                    <h2>Stages:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Single Stage">
+                        <p>Single Stage</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Two Stage">
+                        <p>Two Stage</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Variable Speed">
+                        <p>Variable Speed</p>
+                    </label>
+                    <h2>Price:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$">
+                        <p>$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$">
+                        <p>$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$">
+                        <p>$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$">
+                        <p>$$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$$">
+                        <p>$$$$$</p>
+                    </label>
+                    <h2>Fuel Source:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="fuel source" data-value="Gas">
+                        <p>Gas</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="fuel source" data-value="Electric">
+                        <p>Electric</p>
+                    </label>
+                </div>
+                <div class="category-filters heat-pump-filters" id="content-heat-pump">
+                    <h2>Capacity:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="2 Ton">
+                        <p>2 Ton</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="3 Ton">
+                        <p>3 Ton</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="4 Ton">
+                        <p>4 Ton</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="5 Ton">
+                        <p>5 Ton</p>
+                    </label>
+                    <h2>Efficiency:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="13 seer">
+                        <p>13 seer</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="15 seer">
+                        <p>15 seer</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="17 seer">
+                        <p>17 seer</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="19 seer">
+                        <p>19 seer</p>
+                    </label>
+                    <h2>Stages:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Single Stage">
+                        <p>Single Stage</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Two Stage">
+                        <p>Two Stage</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Variable Speed">
+                        <p>Variable Speed</p>
+                    </label>
+                    <h2>Price:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$">
+                        <p>$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$">
+                        <p>$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$">
+                        <p>$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$">
+                        <p>$$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$$">
+                        <p>$$$$$</p>
+                    </label>
+                </div>
+                <div class="category-filters air-conditioner-filters" id="content-air-conditioner">
+                    <h2>Capacity:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="2 Ton">
+                        <p>2 Ton</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="3 Ton">
+                        <p>3 Ton</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="4 Ton">
+                        <p>4 Ton</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="5 Ton">
+                        <p>5 Ton</p>
+                    </label>
+                    <h2>Efficiency:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="13 seer">
+                        <p>13 seer</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="15 seer">
+                        <p>15 seer</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="17 seer">
+                        <p>17 seer</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="19 seer">
+                        <p>19 seer</p>
+                    </label>
+                    <h2>Stages:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Single Stage">
+                        <p>Single Stage</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Two Stage">
+                        <p>Two Stage</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="stages" data-value="Variable Speed">
+                        <p>Variable Speed</p>
+                    </label>
+                    <h2>Price:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$">
+                        <p>$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$">
+                        <p>$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$">
+                        <p>$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$">
+                        <p>$$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$$">
+                        <p>$$$$$</p>
+                    </label>
+                </div>
+                <div class="category-filters water-heater-filters" id="content-water-heater">
+                    <h2>Capacity:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="40 Gal. Tank">
+                        <p>40 Gal. Tank</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="50 Gal. Tank">
+                        <p>50 Gal. Tank</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="160,000 BTU">
+                        <p>160,000 BTU</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="180,000 BTU">
+                        <p>180,000 BTU</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="capacity" data-value="199,000 BTU">
+                        <p>199,000 BTU</p>
+                    </label>
+                    <h2>Efficiency:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="86%">
+                        <p>86%</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="88%">
+                        <p>88%</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="90%">
+                        <p>90%</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="efficiency" data-value="97%">
+                        <p>97%</p>
+                    </label>
+                    <h2>Price:</h2>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$">
+                        <p>$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$">
+                        <p>$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$">
+                        <p>$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$">
+                        <p>$$$$</p>
+                    </label>
+                    <label class="filter">
+                        <input type="checkbox" data-attribute="price" data-value="$$$$$">
+                        <p>$$$$$</p>
+                    </label>
+                </div>
+            </div>
+            <div class="product-view" id="productDisplay"></div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
