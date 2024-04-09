@@ -88,7 +88,7 @@ body {
 }
 .product-card {
     margin: .5rem;
-    padding: .25rem;
+    padding: 1rem;
     max-width: 45%;
     min-width: 325px;
     height: fit-content;
@@ -105,16 +105,15 @@ body {
     background-color: var(--COLOR-MAIN-BRIGHT);
 }
 .product-card img {
-    width: auto;
+    width: 125px;
     height: 150px;
     margin: .25rem;
     border: 1px ridge black;
     border-radius: 5px;
 }
 .product-card h3 {
-    width: 50%;
+    width: 55%;
     font-size: 2.5rem;
-    margin-top: 1rem;
 }
 .product-card p {
     width: 50%;
@@ -151,7 +150,8 @@ body {
         max-width: 45%;
     }
     .product-card h3 {
-        font-size: 2.2rem;
+        width: 50%;
+        font-size: 2.1rem;
     }
     .product-card p {
         font-size: 1.5rem;
